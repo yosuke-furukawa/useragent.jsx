@@ -1,0 +1,30 @@
+{
+  "name": "useragent.jsx",
+  "version": "0.1.0",
+  "description": "useragent bindings for JSX",
+  "main": "useragent.js",
+  "scripts": {
+    "test": "jsx --add-search-path lib --test t/useragent.jsx",
+    "build": "jsx lib/useragent.jsx | jsx-linker -t commonjs-lib --stdin -o useragent.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/useragent.jsx"
+  },
+  "keywords": [
+    "useragent",
+    "jsx"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/useragent.jsx/issues"
+  },
+  "dependencies": {
+    "useragent": "~2.0.8"
+  },
+  "devDependencies": {
+    "jsx-linker": "~0.1.5",
+    "jsx": "~0.9.83"
+  }
+}
