@@ -1,7 +1,7 @@
 {
   "name": "useragent.jsx",
   "version": "0.1.0",
-  "description": "useragent bindings for JSX",
+  "description": "useragent bindings for JSX.",
   "main": "useragent.js",
   "scripts": {
     "test": "jsx --add-search-path lib --test t/useragent.jsx",
