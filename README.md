@@ -3,4 +3,4 @@ useragent bindings for JSX [![Build Status](https://travis-ci.org/yosuke-furukaw
 
 base : [useragent](https://github.com/3rd-Eden/useragent)
 
-
+useragent.jsx detects and get detail information for JSX.
